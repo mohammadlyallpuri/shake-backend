@@ -34,4 +34,7 @@ const uploadOnCloudinary=async (localFilePath)=>{
     cloudinary.v2.uploader.uploader("https://res.cloudinary.com/demo/image/upload/getting-started/shoes.jpg",
         {public_id:"olympic_flag"},
         function(error,result){console.log(result);})
+
+
+export {uploadOnCloudinary} 
     
